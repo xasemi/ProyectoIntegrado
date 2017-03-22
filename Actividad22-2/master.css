@@ -1,0 +1,56 @@
+body{
+  background-image:url(fondo.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:1000px;
+
+  color: rgb(247, 247, 247);
+}
+#caja{
+  background-color: rgba(27, 82, 49, 0.56);
+  padding: 15px;
+  margin: 100px
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+table{
+  border-radius: 5px;
+  border-color: white;
+}
+tr{
+  background-color: rgb(83, 224, 148);
+}
+tr+tr{
+  background-color: rgb(7, 102, 17);
+}
+a{
+  color: white;
+}
